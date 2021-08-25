@@ -1,26 +1,7 @@
-# Telegram Voice Chat Bot with Channel Support.
-
-A Telegram Bot to Play Audio in Voice Chats With Youtube and Deezer support.
-Supports Live streaming from youtube
-
-```
-Please fork this repository don't import code
-Made with Python3
-(C) @subinps
-Copyright permission under MIT License
-License -> https://github.com/subinps/MusicPlayer/blob/master/LICENSE
-
-```
-
-## Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/subinps/MusicPlayer)
-
-NOTE: Make sure you have started a VoiceChat in your Group before deploying.
 ### Deploy to VPS
 
 ```sh
-git clone https://github.com/subinps/MusicPlayer
+git clone https://github.com/iamfth/MusicPlayer
 cd MusicPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -46,28 +27,4 @@ python3 main.py
 - To play a song use /play as a reply to audio file or a youtube link.
 - Use /play <song name> to play song from youtube and /dplay <song name> to play from Deezer.
 - Use /help to know about other commands.
-
-**Features**
-
-- Playlist, queue
-- Supports Live streaming from youtube
-- Supports both deezer and youtube to search songs.
-- Play from telegram file supported.
-- Starts Radio after if no songs in playlist.
-- Automatically downloads audio for the first two tracks in the playlist to ensure smooth playing
-- Automatic restart even if heroku restarts.
-
-### Note
-
-```
-Contributions are welcomed, But Kanging and editing a few lines wont make you a Developer.
-Fork the repo, Do not Import code.
-
-```
-#### Support
-
-Connect Me On [Telegram](https://telegram.dog/subinps_bot)
-
-## Credits 
-- [Dash Eclipse's](https://github.com/dashezup) for his [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot).
 
