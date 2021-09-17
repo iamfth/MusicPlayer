@@ -171,13 +171,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/xrobotbitch'),
-                InlineKeyboardButton('🤖 Other Bots', url='https://t.me/xrobotbitch'),
+                InlineKeyboardButton('Group Chat', url='https://t.me/PARADISE_SID'),
+                InlineKeyboardButton('Create By', url='https://t.me/RINbitch'),
             ],
-            [
-                InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/xrobotbitch'),
-                InlineKeyboardButton('🧩 Source', url='https://t.me/xrobotbitch'),
-            ]
+           
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.edit_message_text(
