@@ -28,8 +28,8 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('⚡️Touch Me!', url='https://t.me/xrobotbitch'),
-        InlineKeyboardButton('🧩 Managed', url='https://t.me/xrobotbitch'),
+        InlineKeyboardButton('Group Chat', url='https://t.me/PARADISE_SID'),
+                InlineKeyboardButton('Create By', url='https://t.me/RINbitch'),
     ],
     [
         InlineKeyboardButton('🎧Play Music', url=f'https://t.me/{USERNAME}'),
