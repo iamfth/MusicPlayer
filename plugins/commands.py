@@ -71,13 +71,10 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/xrobotbitch'),
-        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/romanticparadise'),
+        InlineKeyboardButton('Group Chat', url='https://t.me/PARADISE_SID'),
+                InlineKeyboardButton('Create By', url='https://t.me/RINbitch'),
     ],
-    [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/xrobotbitch'),
-        InlineKeyboardButton('🧩 Source', url='https://t.me/xrobotbitch'),
-    ],
+   
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
         
@@ -94,13 +91,10 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/xrobotbitch'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/romanticparadise'),
+           InlineKeyboardButton('Group Chat', url='https://t.me/PARADISE_SID'),
+           InlineKeyboardButton('Create By', url='https://t.me/RINbitch'),
         ],
-        [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/xrobotbitch'),
-            InlineKeyboardButton('🧩 Source', url='https://t.me/xrobotbitch'),
-        ]
+       
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     if msg.get('help') is not None:
