@@ -91,8 +91,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-           InlineKeyboardButton('Group Chat', url='https://t.me/PARADISE_SID'),
-           InlineKeyboardButton('Create By', url='https://t.me/RINbitch'),
+           InlineKeyboardButton('Group Chat', url='https://t.me/PARADISESID'),
+                InlineKeyboardButton('Create By', url='https://t.me/xrinhere'),
         ],
        
     ]
